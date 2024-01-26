@@ -73,7 +73,7 @@ def float(a, b): # تولید یک عدد تصادفی
 
 
 
-def integer(a, b):
+def integer(a, b): # تولید یک عدد صحیح تصادفی
     import math
     seed= int(8659838764)
     seed = seed + math.sqrt(seed+a/b)
