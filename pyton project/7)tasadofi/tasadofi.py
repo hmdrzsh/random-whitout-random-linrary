@@ -46,7 +46,7 @@ def normal(m, s): # تولید عدد تصادفی با توزیع نرمال ی
 
 
 
-def repinteger(a, b):
+def repinteger(a, b): # تولید عدد تصادفی بدون تکرار اولیه
     import math
     import time
     seed = int(time.time())
