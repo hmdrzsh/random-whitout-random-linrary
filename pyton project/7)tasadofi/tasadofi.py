@@ -32,7 +32,7 @@ def floatlist(n, a, b): # تولید لیست اعداد اعشاری
 
 
 
-def normal(m, s):
+def normal(m, s): # تولید عدد تصادفی با توزیع نرمال یا گاووس
     import math
     seed = math.sqrt(m/s)
     u1 = ((seed * 1603517254 + 12345) % 32768) % (m - s + 1) + s
