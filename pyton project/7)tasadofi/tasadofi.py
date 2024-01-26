@@ -1,6 +1,6 @@
 #tasadofi_library_pyton
 
-def integerlist(n, a, b):
+def integerlist(n, a, b): # تولید لیست عدد تصادفی
     import math
     seed, s, l = int(8659836740), [], n
     while n > 0:
