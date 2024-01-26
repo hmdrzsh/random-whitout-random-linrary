@@ -60,7 +60,7 @@ def repinteger(a, b): # تولید عدد تصادفی بدون تکرار او�
 
 
 
-def float(a, b):
+def float(a, b): # تولید یک عدد تصادفی
     import math
     k, b= str(b), int(b)
     seed = int(9384836740)
