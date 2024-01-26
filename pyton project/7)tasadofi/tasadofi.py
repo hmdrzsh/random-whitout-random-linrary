@@ -15,7 +15,7 @@ def integerlist(n, a, b): # تولید لیست عدد تصادفی
 
 
 
-def floatlist(n, a, b):
+def floatlist(n, a, b): # تولید لیست اعداد اعشاری
     import math
     k, b, s = str(b), int(b), []
     seed = int(8659836740)
