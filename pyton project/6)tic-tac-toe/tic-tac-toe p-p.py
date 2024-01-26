@@ -32,4 +32,4 @@ def tic_tac_toe(): # تابع اصلی بازی
         else:
             current_player = 'X'
 
-tic_tac_toe() # استارت بازی
+tic_tac_toe() # دوز استارت بازی 
